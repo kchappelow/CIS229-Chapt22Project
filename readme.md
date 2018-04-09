@@ -34,7 +34,7 @@ Implement the algorithm to meet the following requirements:
 	**public static double** distance(**double** x1, **double** y1, **double** x2, **double** y2)
 	```
 
-Tasks
+Tasks:
 In the main routine 
 * initialize a double array[1000][2] using a random number generator.
 * using the divide-and-conquer algorithm show the shortest distance and the time spent with the algorithm
