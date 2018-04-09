@@ -3,9 +3,9 @@
 Closest pair of points
 
 Section 22.8 introduces an algorithm for finding the closest pair of points using a divide-and-conquer approach.
-Step 1: Sort the points in increasing order of x-coordinates. For the points with the same x-coordinate, sort on y-coordinates. This results in a sorted list **S** of points.
-Step 2: Divide **S** into two subsets, **S1** and **S2**, of equal size using the midpoint in the sorted list. Let the midpoint be in **S1**. Recursively find the closet pair in **S1** and **S2**. Let **d1** and **d2** denote the distance of the closest pairs of the two subsets, respectively.
-Step 3: Find the closest pair between a point ins **S1** and a point in **S2** and denote their distance as **d3**. The closest pair is the one with the distance min(**d1**, **d2**, **d3**).
+*Step 1: Sort the points in increasing order of x-coordinates. For the points with the same x-coordinate, sort on y-coordinates. This results in a sorted list **S** of points.
+*Step 2: Divide **S** into two subsets, **S1** and **S2**, of equal size using the midpoint in the sorted list. Let the midpoint be in **S1**. Recursively find the closet pair in **S1** and **S2**. Let **d1** and **d2** denote the distance of the closest pairs of the two subsets, respectively.
+* Step 3: Find the closest pair between a point ins **S1** and a point in **S2** and denote their distance as **d3**. The closest pair is the one with the distance min(**d1**, **d2**, **d3**).
 
 Implement the algorithm to meet the following requirements:
 
